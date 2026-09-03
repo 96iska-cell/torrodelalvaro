@@ -1,0 +1,1 @@
+const header=document.querySelector('.header');const menu=document.querySelector('.menu');if(menu){menu.addEventListener('click',()=>{const open=header.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close menu':'Open menu')})}
