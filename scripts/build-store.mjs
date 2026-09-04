@@ -4,10 +4,10 @@ import path from 'node:path';
 const root = process.cwd();
 const products = [
   {slug:'tropicannes', name:'Tropicannes', image:'tropicannes-9194cc8146.jpg', mood:'Radiant · Tropical · Refined', desc:'A luminous extrait created for warm days, confident entrances and an unmistakable signature.', notes:['Citrus radiance','Exotic accord','Warm woods']},
-  {slug:'tratoria', name:'Tratoria', image:'tratoria-94176b890f.jpg', mood:'Spiced · Amber · Magnetic', desc:'Bright citrus and incense meet pepper, amber resin and warm woods in a deep, commanding composition.', notes:['Lime & frankincense','Red pepper & spices','Amber resin & warm woods']},
-  {slug:'night-of-love', name:'Night of Love', image:'night-of-love-786c632b92.jpg', mood:'Nocturnal · Sensual · Intense', desc:'A sensual evening extrait with a rich trail, designed for after-dark elegance and lasting impressions.', notes:['Dark fruits','Velvet florals','Amber woods']},
-  {slug:'marijah', name:'Marijah', image:'marijah-c099cfe588.jpg', mood:'Elegant · Floral · Warm', desc:'An elegant composition balancing luminous florals with a warm, enveloping base.', notes:['Fresh radiance','Floral heart','Soft amber']},
-  {slug:'sartori', name:'Sartori', image:'sartori-04c0f820eb.jpg', mood:'Tailored · Woody · Modern', desc:'A precise, modern extrait with a polished woody character and quiet authority.', notes:['Aromatic opening','Textured woods','Clean musk']},
+  {slug:'tratoria', name:'Tratoria', image:'tratoria-94176b890f.jpg', mood:'Spiced · Citrus · Vibrant', desc:'A vivid composition of red pepper and bright citrus with a bold, energetic character.', notes:['Red pepper','Bright citrus']},
+  {slug:'night-of-love', name:'Night of Love', image:'night-of-love-786c632b92.jpg', mood:'Spiced · Sensual · Intense', desc:'A sensual composition of aromatic cardamom and spicy pepper, created for memorable evenings.', notes:['Cardamom','Pepper']},
+  {slug:'marijah', name:'Marijah', image:'marijah-c099cfe588.jpg', mood:'Vanilla · Apple · Distinctive', desc:'A distinctive blend of creamy vanilla, crisp apples and the clean scent of a fresh dollar bill.', notes:['Vanilla','Crisp apple','Fresh dollar bill']},
+  {slug:'sartori', name:'Sartori', image:'sartori-04c0f820eb.jpg', mood:'Woody · Mossy · Spiced', desc:'A textured composition of oak, moss and pepper with a refined, confident character.', notes:['Oak','Moss','Pepper']},
 ];
 
 const img = p => `/assets/images/${p}`;
